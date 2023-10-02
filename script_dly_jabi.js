@@ -1,44 +1,44 @@
-// это однострочный комментарий
-// ! console.log('Привет жаба')
-
-// диалоговое окно
-// ! alert('Изучать жабу это офигенно')
 
 //1
-console.log('Существует достаточно много экранирующих последовательностей. \n Например последовательность "\n" делает перевод на новую строку!')
+for (let i=1; i<=5000; i++){
+        console.log(i)
+}
 
 //2
-let a=3
-let h=6
-let S=0.5*(a*h)
-console.log(S)
+let start=0
+let end=prompt()
+let sum=0
+while (start <= end){
+        if (start%5==0){
+                sum+=start
+        }
+        start++
+}
+console.log(sum)
 
 //3
-let text='Привет, мир!'
-let text2=text.toUpperCase()
-console.log(text2)
+const str='мир'
+
+const word1=str.split('').reverse().join('');
+console.log(word1);
 
 //4
-// let variable=prompt()
-// if (variable<10){
-//         alert('введенное число меньше 10')
-// } else if (variable==10){
-//         alert('введенное равно 10')
-// } else {
-//         alert('введенное число больше 10')
-// }
-
-//5
-let z=prompt()
-let zxc=99
-if (z>zxc){
-        alert('error')
-}
-let x=4
-let c=z/x
-if (c%10!=0){
-        alert('номер купе '+c)
+let word2=prompt('')
+let cloneword=word2
+if (cloneword==word2.split('').reverse().join('')){
+        console.log('Слово является палиндромом!')
 } else {
-        c=c-(c%10)+1
-        alert('номер купе '+c)
+        console.log('Слово не является палиндромом!')
 }
+
+//Задача 5 *
+
+//Дана строка из 6-ти цифр. Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр. Если это так - выведите 'да', в противном случае выведите 'нет'.
+
+//Входная строка 123321
+//Пример результата:
+//Да: 6 = 6
+
+//Входная строка 111222
+//Пример результата:
+//Нет: 3 != 6
