@@ -36,9 +36,5 @@ if (z>zxc){
 }
 let x=4
 let c=z/x
-if (c%10!=0){
-        alert('номер купе '+c)
-} else {
-        c=c-(c%10)+1
-        alert('номер купе '+c)
-}
+Math.floor(c)
+alert('номер купе '+c)
