@@ -42,3 +42,10 @@ if (cloneword==word2.split('').reverse().join('')){
 //Входная строка 111222
 //Пример результата:
 //Нет: 3 != 6
+let str=prompt('')
+let variable=str.split('')
+if (variable[0]+variable[1]+variable[2]==variable[3]+variable[4]+variable[5]){
+        console.log(variable[0]+variable[1]+variable[2],'=',variable[3]+variable[4]+variable[5])
+} else {
+        variable[0]+variable[1]+variable[2],'!=',variable[3]+variable[4]+variable[5]
+}
