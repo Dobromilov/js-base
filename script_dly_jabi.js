@@ -26,22 +26,58 @@
     // Результат функций присвоить в переменные и вывести результат в консоль
 
     // НАЧАЛО
-    function Sum(variable1,variable2){
-        let sum=variable1+variable2
-        console.log(sum);
-        }
+// let a=+prompt('')
+// let b=+prompt('')
+//     function sum(variable1,variable2){
+//         let sum=variable1+variable2
+//         console.log(sum);
+//         }
+// sum(a,b)
 
-Sum(123,34)
+
+// function sub(variable1,variable2){
+//     let subtraction=variable1-variable2
+//     console.log(subtraction);
+//     }
+// sub(a,b)
 
 
+// function multip(variable1,variable2){
+//     let mult=variable1*variable2
+//     console.log(mult);
+//     }
+// multip(a,b)
+
+
+// function divis(variable1,variable2){
+//     if (b==0){
+//         console.log('не существует')
+//     }
+//     let division=variable1/variable2
+//     console.log(division);
+//     }
+// divis(a,b)
     // КОНЕЦ
 
     // ! Задача 3 
     // Написать функцию, которая принимаем целое число N.
     // Функция должна вернуть сумму всех четных чисел от 0 до N
-    
     // НАЧАЛО
     // Пишите код ниже здесь
+    
+    
+    
+    
+    //  function sum(x,y){
+    //  let Sum=0
+    //  for (let i = x; i<=y; i++){
+    //      if (i%2==0){
+    //          Sum+=i
+    //      } 
+    //  }
+    //  return Sum
+    // }
+    // console.log(sum(0,+prompt()))
 
     // КОНЕЦ
 
