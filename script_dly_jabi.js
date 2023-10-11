@@ -86,6 +86,46 @@
     // Первая находит минимальный элемент из 3 переданных аргументов
     // Вторая находит минимальный элемент из 3 переданных аргументов
     
+    
+    // function funmin(x,y){
+    //     let min=10000
+    //     let a=x
+    //     while (a<y){
+    //         let b=+prompt()
+    //         if (b<=min){
+    //             min=b
+    //         }
+    //         a++
+    //     }
+    //     console.log(min)
+    // }
+    // funmin(0,3)
+    // console.log()
+
+    // function funmax(x,y){
+    //     let max=0
+    //     let a=x
+    //     while (a<y){
+    //         let b=+prompt()
+    //         if (b>=max){
+    //             max=b
+    //         }
+    //         a++
+    //     }
+    //     console.log(max)
+    // }
+    // funmax(0,3)
+    // console.log()
+
+
+    // x - строго равен 0
+    // y - строго равен 3
+
+
+
+     
+
+
     // НАЧАЛО
     // Пишите код ниже здесь
 
