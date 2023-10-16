@@ -1,132 +1,89 @@
-   // ! Задача 1
-    // Напишите функцию приветствия с языками программирования.
-    // Аргументом передаем название языка программирования
-    // В результате функция должна вывести в консоль "Привет, о прекрасный язык программирования ИмяЗыка"
 
-    // ? Нужно будет использовать метод строки toLowerCase(). Как думаете зачем?
+// ЗАДАЧА 1
+            // let array1 = [1,1,2,3,5,8,13,21,35]
+            // let summa=0
+            // let summa_2=0
+            // let composition=1
+            // let sum_6=0
+            // let average=0
+            // let odd=0
+            // for (let i=0; i<array1.length;i++){
+            //     summa+=array1[i]
+            //     composition*=array1[i]
+            //     summa_2+=array1[i]**2
+            //     if (i<6){
+            //         sum_6+=array1[i]
+            //     }
+            //     if (i%2!=0){
+            //         odd+=array1[i]
+            //     }
+            // }
+            // average=summa/array1.length
+            // console.log(summa)
+            // console.log(composition)
+            // console.log(summa_2)
+            // console.log(sum_6)
+            // console.log(average)
+            // console.log(odd)
+// Определить:
+// а)  сумму всех элементов массива;
+// б)  произведение всех элементов массива;
+// в)  сумму квадратов всех элементов массива;
+// г)  сумму шести первых элементов массива;
+// е)  среднее арифметическое всех элементов массива;
+// ё)  сумму нечетных элементов
 
-    // НАЧАЛО
 
-//     function text(variable){
-//         let value=variable.toLowerCase()
-//         console.log(value);
-//     }
-//     text('Привет, о прекрасный язык программирования Имя языка')
+// ЗАДАЧА 2 
+// Выяснить, верно ли, что сумма элементов массива есть неотрицательное число.
+            // let array2 = [-1, 1,-1, 1,-1, 1,-1, 1,-1, 1,-1]
+            // let summa=0
+            // for(i=0; i<array2.length; i++){
+            //     summa+=array2[i]
+            // }
+            // if (summa>0){
+            //     console.log('число не отрицательное')
+            // } else  if(summa<0){
+            //     console.log('число отрицательное')
+            // } else if(summa==0){
+            //     ('число равно 0')
+            // }
+
     
-    // КОНЕЦ
-    
+// ЗАДАЧА 3
+// Найти сумму элементов массива: значение которых не превышает 20
+            // let summa=0
+            // let array3 = [1, 2, 3, 11, 21, 121, 21, 19,-10, 5, 99]
+            // for(i=0; i<array3.length; i++){
+            //     if(array3[i]<=20){
+            //         summa+=array3[i]
+            //     } 
+            // }
+            // console.log(summa)
 
-    
-    // ! Задача 2
-    // Написать 4 функции для калькулятора
-    // Функция сложения двух чисел
-    // Функция вычитания двух чисел
-    // Функция умножения двух чисел
-    // Функция деления двух чисел (Обязательно обработать условие деления на ноль :)
-    // Результат функций присвоить в переменные и вывести результат в консоль
+// ЗАДАЧА 4
+            // В  массиве записаны оценки ученика по 15 предметам. Определить общее количество четверок и пятерок.
+            // let array4 = [3, 3, 3, 4, 3, 5, 5, 4, 3, 4, 5, 4, 3, 5, 5]
+            // let count=0
+            // for(i=0; i<array4.length; i++){
+            //     if((array4[i]==4) || (array4[i]==5)){
+            //         count++
+            //     } 
+            // }
+            // console.log(count)
 
-    // НАЧАЛО
-// let a=+prompt('')
-// let b=+prompt('')
-//     function sum(variable1,variable2){
-//         let sum=variable1+variable2
-//         console.log(sum);
-//         }
-// sum(a,b)
-
-
-// function sub(variable1,variable2){
-//     let subtraction=variable1-variable2
-//     console.log(subtraction);
-//     }
-// sub(a,b)
-
-
-// function multip(variable1,variable2){
-//     let mult=variable1*variable2
-//     console.log(mult);
-//     }
-// multip(a,b)
-
-
-// function divis(variable1,variable2){
-//     if (b==0){
-//         console.log('не существует')
-//     }
-//     let division=variable1/variable2
-//     console.log(division);
-//     }
-// divis(a,b)
-    // КОНЕЦ
-
-    // ! Задача 3 
-    // Написать функцию, которая принимаем целое число N.
-    // Функция должна вернуть сумму всех четных чисел от 0 до N
-    // НАЧАЛО
-    // Пишите код ниже здесь
-    
-    
-    
-    
-    //  function sum(x,y){
-    //  let Sum=0
-    //  for (let i = x; i<=y; i++){
-    //      if (i%2==0){
-    //          Sum+=i
-    //      } 
-    //  }
-    //  return Sum
-    // }
-    // console.log(sum(0,+prompt()))
-
-    // КОНЕЦ
-
-    // ! Задача 4
-    // Написать 2 функции
-    // Первая находит минимальный элемент из 3 переданных аргументов
-    // Вторая находит минимальный элемент из 3 переданных аргументов
-    
-    
-    // function funmin(x,y){
-    //     let min=10000
-    //     let a=x
-    //     while (a<y){
-    //         let b=+prompt()
-    //         if (b<=min){
-    //             min=b
-    //         }
-    //         a++
-    //     }
-    //     console.log(min)
-    // }
-    // funmin(0,3)
-    // console.log()
-
-    // function funmax(x,y){
-    //     let max=0
-    //     let a=x
-    //     while (a<y){
-    //         let b=+prompt()
-    //         if (b>=max){
-    //             max=b
-    //         }
-    //         a++
-    //     }
-    //     console.log(max)
-    // }
-    // funmax(0,3)
-    // console.log()
-
-
-    // x - строго равен 0
-    // y - строго равен 3
-
-
-
-     
-
-
-    // НАЧАЛО
-    // Пишите код ниже здесь
-
-    // КОНЕЦ
+// ЗАДАЧА 5
+// Определить количество положительных и  отрицательных элементов массива.
+            // let array5 = [-1, 1,-1, 1,-1, 1,-1, 1,-1, 1,-1]
+            // let count_pos=0
+            // let count_neg=0
+            // for(i=0; i<array5.length; i++){
+            //     if (array5[i]>0){
+            //         count_pos+=1
+            //     }
+            //     if (array5[i]<0){
+            //         count_neg+=1
+            //     }
+            // }
+            // console.log(count_pos)
+            // console.log(count_neg)
